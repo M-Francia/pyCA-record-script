@@ -1,87 +1,26 @@
-# Project Title
+# pyCA record script
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This bash script demonstrates recording multiple sources for audio & video with a single command. It is intended to be used with the pyca capture agent by Lars Kiesow. Based in a script of Jan Koppe <jan.koppe@wwu.de>.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+pyCA installed.
 
-```
-Give examples
-```
+### How to use
 
-### Installing
+In your pyCA config file, invoque the script through the command value, inside the [capture] section.
+```command		= './recordscript.sh /home/ {{name}} {{time}}'
+``` 
 
-A step by step series of examples that tell you have to get a development env running
+### About
 
-Say what the step will be
+This scripts was tested in a Debian 8.8.
 
-```
-Give the example
-```
+## Author
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Mario Francia Rius** - *@mfranciar*
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Jan Koppe <jan.koppe@wwu.de>
+* Lars Kiesow 
