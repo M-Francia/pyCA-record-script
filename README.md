@@ -9,7 +9,8 @@ pyCA installed.
 ### How to use
 
 In your pyCA config file, invoque the script through the command value, inside the [capture] section.
-```command		= './recordscript.sh /home/ {{name}} {{time}}'
+```
+command		= './recordscript.sh /home/ {{name}} {{time}}'
 ``` 
 
 ### About
